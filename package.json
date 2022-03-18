@@ -14,6 +14,7 @@
     "build-css-minify": "node-sass --output-style compressed --include-path ./scss ./scss/select.scss ./css/select.min.css",
     "watch": "nodemon -e scss -e src -x \"npm run build\""
   },
+  "types": "./types/module.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ofertorio/bootstrap-extend-select.git"
