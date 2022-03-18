@@ -209,11 +209,11 @@
         const group = $(element).data('input-group') ? 'input-group-prepend' : '';
         const btnClasses = $(element).data('btn-class') || 'btn-secondary';
         const label = getSelectedLabel(element);
-        const button = $('<button class="btn dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"/>').addClass(btnClasses);
-        const alert = $('<div class="alert alert-danger select-extend-alert" role="alert"/>');
-        const dropdown = $('<div class="dropdown-menu"/>').append(alert);
+        const button = $(/*html*/`<button class="btn dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"/>`).addClass(btnClasses);
+        const alert = $(/*html*/`<div class="alert alert-danger select-extend-alert" role="alert"/>`);
+        const dropdown = $(/*html*/`<div class="dropdown-menu"/>`).append(alert);
         const types = [elementContainer, group, type].join(' ');
-        const select = $('<div class="dropdown"/>').addClass(types);
+        const select = $(/*html*/`<div class="dropdown"/>`).addClass(types);
 
         $(element).find('option').each((index, option) => $(option).attr('data-index', index));
 

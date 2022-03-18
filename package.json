@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap-hardskilled-extend-select",
+  "name": "bootstrap-extend-select",
   "version": "1.2.2",
   "description": "Extended Select for Bootstrap 4 (alternative bootstrap-select)",
   "keywords": ["bootstrap", "select", "bootstrap-4", "jquery"],
@@ -16,14 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hardskilled/bootstrap-hardskilled-extend-select.git"
+    "url": "git+https://github.com/ofertorio/bootstrap-extend-select.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hardskilled/bootstrap-hardskilled-extend-select/issues"
+    "url": "https://github.com/ofertorio/bootstrap-extend-select/issues"
   },
-  "homepage": "https://github.com/hardskilled/bootstrap-hardskilled-extend-select#readme",
+  "homepage": "https://github.com/ofertorio/bootstrap-extend-select#readme",
   "devDependencies": {
     "babel-cli": "latest",
     "babel-minify": "latest",
